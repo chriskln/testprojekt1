@@ -14,6 +14,10 @@ from myfunctions import print_hi
 
 if __name__ == '__main__':
     print_hi('PyCharm')
+    a = 20
+    b = 10
+    c = a + b
+    print(c)
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
