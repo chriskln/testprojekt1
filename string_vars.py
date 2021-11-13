@@ -17,5 +17,12 @@ if __name__ == '__main__':
 
     print('_______________')
 
+    # ascii table
+    # "\n" introduces a new line in run window // "\t" introduces a tab in run window // "\b" remove previous letter
+    s1 = 'abc\ndef\tghia\bjklm'
+    print(s1)
+
+    print("I can't")
+    print("Hello \"Pawel\"")
 
 
