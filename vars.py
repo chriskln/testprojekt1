@@ -60,7 +60,7 @@ print(h_s1)
 # result depends on what the basis is (16 or 2, in this case)
 
 # binary
-b_s1 = int(s1, 2)
+b_s1 = int(s1, 3)
 print(b_s1)
 
 
