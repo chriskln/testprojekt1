@@ -16,8 +16,8 @@ in_path = os.path.join(os.getcwd(), 'data', '.keep')
 print(in_path)
 
 print(os.listdir(my_parent_dir))# printing list of all files I have
-#print(os.listdir('c:\\Users')) # printing list of users
+print(os.listdir('C:\\Users')) # printing list of users
 
-# my_dir = 'c\\Users\\klein' # kann user 'klein' nicht finden
-#for f in os.listdir(my_dir):
- #   print(f)
+my_dir = 'C:\\Users\\klein'
+for f in os.listdir(my_dir):
+    print(f)
