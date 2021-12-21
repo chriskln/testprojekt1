@@ -20,4 +20,7 @@ print(os.listdir('C:\\Users')) # printing list of users
 
 my_dir = 'C:\\Users\\klein'
 for f in os.listdir(my_dir):
-    print(f)
+    type = "d" if os.path.isdir(os.path.join(my_dir, f)) else "-"
+    size = os.path.getsize(os.path.join(my_dir, f))
+    print("{} {} {}".format(type, size, f))
+
